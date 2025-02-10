@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-int main(){
-    double f;
-    scanf("%f", &f);
-    print("You entered: %.2f\n", f);
+int main() {
+    double num;
+    scanf("%lf", &num);       // Read double input with %lf
+    printf("You entered: %f\n", num); // Print with %f (default 6 decimal places)
     return 0;
 }
 

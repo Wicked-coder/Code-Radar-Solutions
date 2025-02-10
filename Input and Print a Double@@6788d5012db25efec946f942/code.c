@@ -9,7 +9,7 @@
 
 int main() {
     double num;
-    scanf("%lf", &num);
-    printf("You entered: %lf\n", num);
+    scanf("%f", &num);
+    printf("You entered: %.2f\n", num);
     return 0;
 }

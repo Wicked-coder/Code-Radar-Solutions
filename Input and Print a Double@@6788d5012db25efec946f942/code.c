@@ -9,7 +9,8 @@
 
 int main() {
     double num;
-    scanf("%f", &num);
-    printf("You entered: %.2f\n", num);
+    scanf("&f", &num)
+    // printf("Double value: %f\n", num);       // Default precision (usually 6 decimal places)
+    printf("Formatted: %.2f\n", num);        // Rounded to 2 decimal places
     return 0;
 }

@@ -10,7 +10,7 @@ int main() {
 // int main() {
 //     double num;
 //     scanf("&f", &num)
-//     // printf("Double value: %f\n", num);       // Default precision (usually 6 decimal places)
-//     printf("Formatted: %.2f\n", num);        // Rounded to 2 decimal places
+//     // printf("Double value: %f\n", num);       
+//     printf("Formatted: %.2f\n", num);        
 //     return 0;
 // }

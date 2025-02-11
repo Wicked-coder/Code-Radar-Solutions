@@ -3,7 +3,7 @@
 int main() {
     double num;
     scanf("%lf", &num);       // Read double input with %lf
-    printf("You entered: %.6f\n", num); // Print with %f (default 6 decimal places)
+    printf("You entered: %lf\n", num); // Print with %f (default 6 decimal places)
     return 0;
 }
 

@@ -19,7 +19,7 @@ int main() {
             printf("*");  // print stars
         }
         
-        if(i!=0){
+        if(i>0){
          for (int l = 1; l <= i; l++) {
             printf("*");  // print stars
         }

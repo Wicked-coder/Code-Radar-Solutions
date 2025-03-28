@@ -19,11 +19,11 @@ int main() {
             printf("*");  // print stars
         }
         
-        if(i>0){
+        
          for (int l = 1; l <= (2*i-1); l++) {
             printf("*");  // print stars
         }
-        }
+        
         // Move to the next line after each row
         printf("\n");
     }

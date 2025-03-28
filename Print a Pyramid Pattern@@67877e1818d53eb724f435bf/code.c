@@ -1,15 +1,27 @@
 #include <stdio.h>
-int main(){
-    int N;
-    scanf("%d",&N);
-    for(int i=1;i<=N;i++){
-        for(int j=N;j<=N-i;j++){
-            printf(" ");
+
+int main() {
+    int rows;
+
+    // Ask user for the number of rows
+    printf("Enter number of rows: ");
+    scanf("%d", &rows);
+
+    // Outer loop for the number of rows
+    for (int i = 1; i <= rows; i++) {
+        // Inner loop for spaces
+        for (int j = 1; j <= rows - i; j++) {
+            printf(" ");  // print spaces
         }
-        for(int k=1;k<=i;k++){
-            printf("*");
+
+        // Inner loop for stars
+        for (int k = 1; k <= i; k++) {
+            printf("*");  // print stars
         }
+
+        // Move to the next line after each row
         printf("\n");
     }
+
     return 0;
 }

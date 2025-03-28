@@ -18,9 +18,9 @@ int main() {
      }
     }
     else{
-    for (int i = 1; i <= rows+1; i++) {
+    for (int i = 1; i <= rows+2; i++) {
         
-        for (int j = 1; j <= rows+1; j++) {
+        for (int j = 1; j <= rows+2; j++) {
             if(i==1&&j==1||i==rows&&j==1||i==1&&j==rows||i==rows&&j==rows){
             printf(" ");  
             }

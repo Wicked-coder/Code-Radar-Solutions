@@ -3,33 +3,31 @@
 int main() {
     int rows;
     scanf("%d", &rows);
-    if(rows%2==0){
-    for (int i = 1; i <= rows+1; i++) {
+    for (int i = 1; i <= rows; i++) {
         
-        for (int j = 1; j <= rows+1; j++) {
-            if(i==1&&j==1||i==rows&&j==1||i==1&&j==rows||i==rows&&j==rows){
+        for (int j = 1; j <= rows - i; j++) {
             printf(" ");  
-            }
-            else{
-            printf("*");
-            }
+        }
+        // for (int k = 1; k <= i; k++) {
+        //     printf("*");
+        // }
+        for (int l = 1; l <= 2*i-1; l++) {
+            printf("*");  
         }
         printf("\n");
-     }
     }
-    else{
-    for (int i = 1; i <= rows+2; i++) {
+    for (int i = 1; i <= rows; i++) {
         
-        for (int j = 1; j <= rows+2; j++) {
-            if(i==1&&j==1||i==rows&&j==1||i==1&&j==rows||i==rows&&j==rows){
+        for (int j = 1; j <= rows - i; j++) {
             printf(" ");  
-            }
-            else{
-            printf("*");
-            }
+        }
+        // for (int k = 1; k <= i; k++) {
+        //     printf("*");
+        // }
+        for (int l = rows; l >= 2*i-1; l++) {
+            printf("*");  
         }
         printf("\n");
-     }
     }
     return 0;
 }

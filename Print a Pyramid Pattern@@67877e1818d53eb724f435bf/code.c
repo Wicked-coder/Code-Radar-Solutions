@@ -18,7 +18,12 @@ int main() {
         for (int k = 1; k <= i; k++) {
             printf("*");  // print stars
         }
-
+        
+        if(i!=0){
+         for (int l = 1; l <= i; l++) {
+            printf("*");  // print stars
+        }
+        }
         // Move to the next line after each row
         printf("\n");
     }

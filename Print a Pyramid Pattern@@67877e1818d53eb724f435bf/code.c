@@ -20,7 +20,7 @@ int main() {
         }
         
         if(i>0){
-         for (int l = 1; l <= i; l++) {
+         for (int l = 1; l <= (2*i-1); l++) {
             printf("*");  // print stars
         }
         }

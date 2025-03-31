@@ -5,8 +5,11 @@ int main(){
     for(int i=1;i<=N;i++){
         int n=i;
         for(int j=1;j<=i;j++){
-            printf("%d ",n);
-            n++;
+            if(n>1){
+                n=n-1;
+                printf("%d ",n);
+                n++;
+            }
         }
         printf("\n");
     }

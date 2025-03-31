@@ -11,8 +11,8 @@ int main() {
         for (int l = 1; l <= 2*i-1; l++) {
             
             printf("%d ",inc);  
+            inc ++;        
         }
-        inc ++;
         printf("\n");
     }
     return 0;

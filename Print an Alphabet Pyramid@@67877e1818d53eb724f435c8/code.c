@@ -9,8 +9,9 @@ int main() {
             printf(" ");  
         }
         for (int l = 1; l <= 2*i-i; l++) {
-            ch++;
-            printf("%c ",ch);          
+            
+            printf("%c ",ch);  
+            ch++;        
         }
         printf("\n");
     }

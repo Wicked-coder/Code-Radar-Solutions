@@ -10,7 +10,7 @@ int main() {
         }
         for (int l = 1; l <= 2*i-i; l++) {
             
-            printf("%d ",inc);  
+            printf("%d ",l);  
             inc ++;        
         }
         printf("\n");

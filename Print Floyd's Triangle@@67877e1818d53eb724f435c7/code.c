@@ -6,8 +6,8 @@ int main(){
         int n=i;
         for(int j=1;j<=i;j++){
             if(n>2){
-                n++;
-                 printf("%d ",n);
+                ++n;
+                printf("%d ",n);
             }
             else{
                 printf("%d ",n);
